@@ -1,0 +1,89 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.profile-card {
+  width: px100;
+  max-width: calc(100vw - 60px);
+}
+body {
+  height: 105vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('back/evitop.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.head, .links {
+  text-align: center;
+}
+.head, .content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.profile-image {
+  margin-top: -47px;
+}
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+p
+/* Contact links */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+.head, .about {
+  margin-bottom: 5%;
+}
+.content {
+  padding: 5% 10%;
+}
+  
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 6px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+img {
+  padding: 1px;
+  background-color: #666;
+  transition: all 2.2s ease-in-out;
+}
+.content {
+  border-top: 6px solid hsla(1, 0%, 10%, .7);
+ 
+  
+}
+img:hover {
+  transform: scale(1.2) rotate(360deg);
+  filter: grayscale(20%);
+}
+.name-headline {
+  font-size: 15px;
+  display:inline;
+}
+
+h1 {
+  font-size: 33px;
+  font-family: Rockwell;
+  color:darkblue;
+}
+
+p {
+  font-size:18px;
+}
