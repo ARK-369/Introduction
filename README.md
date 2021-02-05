@@ -1,2 +1,2 @@
 # Introduction
-Online Profile card making praktice
+Online Profile card making practice
